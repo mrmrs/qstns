@@ -8,7 +8,6 @@
 .bg-drk { background-color: #333; }
 .bg-lt  { background-color: #ededed; }
 
-
 .tc { text-align: center; }
 .tl { text-align: left; }
 
@@ -17,7 +16,10 @@
 
 p { font-size: 20px;  }
 .mw-800 { max-width: 800px; }
-
+.mw-full { max-width: 100%; }
+.default-tap-target { width: 44pt; height: 44pt; }
+.bad-tap-target { width: 30pt; height: 30pt; }
+.white-font { color: $white; }
 
 .cp { line-height: 1.5; }
 .lh { line-height: 1; }
