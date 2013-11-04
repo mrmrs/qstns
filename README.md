@@ -1,8 +1,8 @@
-# MNML
+# QSTNS
 
-View the project page at [http://mn-ml.cc](http://mn-ml.cc "MNML - A light-weight responsive html5 boilerplate.")
+View the project page at [https://github.com/mrmrs/qstns](http://mrmrs.github.io/qstns "QSTNS - Truths and Questions a Designer should have.")
 
-MNML is a starting point for responsive HTML5 SASS projects.
+QSTNS is a continuum for responsive HTML5 projects.
 Focused on mobile readability.
 
 # Getting started
@@ -10,7 +10,7 @@ Focused on mobile readability.
 * Create a new repo for your project on Github
 * In terminal run
 ```bash
-    git clone git@github.com:mrmrs/mnml.git [yourNewRepoName]
+    git clone git@github.com:mrmrs/qstns.git [yourNewRepoName]
     cd [yourNewRepoName]
     git remote rm origin
     git remote add origin git@github.com:[yourUserName]/[yourNewRepoName].git
@@ -30,8 +30,9 @@ git push -u origin master
 
 # What is it?
 
-Mostly a bare-bones html5 template with some basic css I start most projects
-with.
+Mostly a check-list of truths about typography with a focus on responsive web
+design.  It also provides a list of questions to ask throughout the design
+process to ensure maximum readability.
 
 ## Directory structure
 ```
@@ -58,6 +59,13 @@ rake sass
 Start sass - output is minified to css/i.css
 ```bash
 rake minify
+```
+
+# Viewing Check-list locally
+
+Start local python HTTPServer
+```bash
+python -m SimpleHTTPServer 8000
 ```
 
 # Author
