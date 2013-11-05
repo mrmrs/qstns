@@ -409,6 +409,9 @@ p {
 .white-font {
   color: white; }
 
+.nowrap {
+  white-space: nowrap; }
+
 .cp {
   line-height: 1.5; }
 
