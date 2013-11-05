@@ -1,16 +1,21 @@
-# MNML
+# QSTNS
 
-View the project page at [http://mn-ml.cc](http://mn-ml.cc "MNML - A light-weight responsive html5 boilerplate.")
+View the project page at [https://github.com/mrmrs/qstns](http://mrmrs.github.io/qstns "QSTNS - Absolute Truths in Web Design.")
 
-MNML is a starting point for responsive HTML5 SASS projects.
-Focused on mobile readability.
+QSTNS is our promise to to try to make the internet better a better place.
+Our core tenet is that the internet should be consumable by everyone with
+a focus on typography and accessibility.
 
 # Getting started
 
-* Create a new repo for your project on Github
+Users can start enjoying the benefits of the improved internet if you just start reading and applying the principles that QSTNS outlines.  You can find the site at the link above.
+
+Or if you want to have your own running local copy or want to contribute to the
+proejct follow the steps below:
+
 * In terminal run
 ```bash
-    git clone git@github.com:mrmrs/mnml.git [yourNewRepoName]
+    git clone git@github.com:mrmrs/qstns.git [yourNewRepoName]
     cd [yourNewRepoName]
     git remote rm origin
     git remote add origin git@github.com:[yourUserName]/[yourNewRepoName].git
@@ -28,10 +33,13 @@ Focused on mobile readability.
 git push -u origin master
 ```
 
+* To contibute to the project, please submit a pull request to the original
+  GitHub project repo.
+
 # What is it?
 
-Mostly a bare-bones html5 template with some basic css I start most projects
-with.
+Mostly a check-list of truths about typography and accessibility with a focus on responsive web
+design to ensure maximum readability.
 
 ## Directory structure
 ```
@@ -50,6 +58,11 @@ with.
 
 ## Rake tasks
 
+Install sass if you don't already have it installed
+```bash
+gem install sass
+```
+
 Start sass development - watches the sass folder and updates css/i.css with every file change
 ```bash
 rake sass
@@ -60,9 +73,20 @@ Start sass - output is minified to css/i.css
 rake minify
 ```
 
-# Author
+# Viewing Check-list locally
+
+Start local python HTTPServer
+```bash
+python -m SimpleHTTPServer 8000
+```
+
+# Authors
 
 [MRMRS](http://mrmrs.cc "Adam Morse - Designer Developer")
+
+[Donielle Berg](http://www.donielleberg.com "Donielle Berg - Developer")
+
+[Xiao (Sean) G. Wu](http://xiaogwu.com "Xiao G. Wu - Web Development Engineer")
 
 # License
 
