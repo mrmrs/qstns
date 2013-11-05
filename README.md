@@ -1,13 +1,18 @@
 # QSTNS
 
-View the project page at [https://github.com/mrmrs/qstns](http://mrmrs.github.io/qstns "QSTNS - Truths and Questions a Designer should have.")
+View the project page at [https://github.com/mrmrs/qstns](http://mrmrs.github.io/qstns "QSTNS - Absolute Truths in Web Design.")
 
-QSTNS is a continuum for responsive HTML5 projects.
-Focused on mobile readability.
+QSTNS is our promise to to try to make the internet better a better place.
+Our core tenet is that the internet should be consumable by everyone with
+a focus on typography and accessibility.
 
 # Getting started
 
-* Create a new repo for your project on Github
+Users can start enjoying the benefits of the improved internet if you just start reading and applying the principles that QSTNS outlines.  You can finded the site at the link above.
+
+Or if you want to have you own running local copy or want to contribute to the
+proejct follow the steps below:
+
 * In terminal run
 ```bash
     git clone git@github.com:mrmrs/qstns.git [yourNewRepoName]
@@ -28,11 +33,13 @@ Focused on mobile readability.
 git push -u origin master
 ```
 
+* To contibute to the project, please submit a pull request to the original
+  project repo.
+
 # What is it?
 
 Mostly a check-list of truths about typography with a focus on responsive web
-design.  It also provides a list of questions to ask throughout the design
-process to ensure maximum readability.
+design and accessibility to ensure maximum readability. 
 
 ## Directory structure
 ```
@@ -50,6 +57,11 @@ process to ensure maximum readability.
 ```
 
 ## Rake tasks
+
+Install sass if you don't already have it installed
+```bash
+gem install sass
+```
 
 Start sass development - watches the sass folder and updates css/i.css with every file change
 ```bash
