@@ -80,12 +80,13 @@ Start local python HTTPServer
 python -m SimpleHTTPServer 8000
 ```
 
-# Author
+# Authors
 
 [MRMRS](http://mrmrs.cc "Adam Morse - Designer Developer")
+
 [Donielle Berg](http://www.donielleberg.com "Donielle Berg - Developer")
-[Xiao (Sean) G. Wu](http://xiaogwu.com "Xiao (Sean) G. Wu - Web Development
-Engineer")
+
+[Xiao (Sean) G. Wu](http://xiaogwu.com "Xiao G. Wu - Web Development Engineer")
 
 # License
 
