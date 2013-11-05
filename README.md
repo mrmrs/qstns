@@ -8,9 +8,9 @@ a focus on typography and accessibility.
 
 # Getting started
 
-Users can start enjoying the benefits of the improved internet if you just start reading and applying the principles that QSTNS outlines.  You can finded the site at the link above.
+Users can start enjoying the benefits of the improved internet if you just start reading and applying the principles that QSTNS outlines.  You can find the site at the link above.
 
-Or if you want to have you own running local copy or want to contribute to the
+Or if you want to have your own running local copy or want to contribute to the
 proejct follow the steps below:
 
 * In terminal run
@@ -34,12 +34,12 @@ git push -u origin master
 ```
 
 * To contibute to the project, please submit a pull request to the original
-  project repo.
+  GitHub project repo.
 
 # What is it?
 
-Mostly a check-list of truths about typography with a focus on responsive web
-design and accessibility to ensure maximum readability. 
+Mostly a check-list of truths about typography and accessibility with a focus on responsive web
+design to ensure maximum readability.
 
 ## Directory structure
 ```
@@ -83,6 +83,9 @@ python -m SimpleHTTPServer 8000
 # Author
 
 [MRMRS](http://mrmrs.cc "Adam Morse - Designer Developer")
+[Donielle Berg](http://www.donielleberg.com "Donielle Berg - Developer")
+[Xiao (Sean) G. Wu](http://xiaogwu.com "Xiao (Sean) G. Wu - Web Development
+Engineer")
 
 # License
 
