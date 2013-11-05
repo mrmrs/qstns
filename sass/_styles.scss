@@ -20,6 +20,8 @@ p { font-size: 20px;  }
 .default-tap-target { width: 44pt; height: 44pt; }
 .bad-tap-target { width: 30pt; height: 30pt; }
 .white-font { color: $white; }
+.nowrap { white-space: nowrap; }
+
 
 .cp { line-height: 1.5; }
 .lh { line-height: 1; }
