@@ -16,6 +16,10 @@
 .dib { display: inline-block; }
 
 p { font-size: 20px;  }
+.green { color: #57ad68; }
+.gray-medium { color: $gray-medium; }
+.bt-gray-light { border-top: 1px solid $gray-light; }
+.uppercase { text-transform: uppercase; }
 .mw-800 { max-width: 800px; }
 .mw-400 { max-width: 400px; }
 .mw-full { max-width: 100%; }

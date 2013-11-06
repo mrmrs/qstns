@@ -395,6 +395,18 @@ table {
 p {
   font-size: 20px; }
 
+.green {
+  color: #57ad68; }
+
+.gray-medium {
+  color: #999999; }
+
+.bt-gray-light {
+  border-top: 1px solid #eeeeee; }
+
+.uppercase {
+  text-transform: uppercase; }
+
 .mw-800 {
   max-width: 800px; }
 
