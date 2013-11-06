@@ -10,23 +10,29 @@
 
 .tc { text-align: center; }
 .tl { text-align: left; }
+.va-m { vertical-align: middle; }
 
 .db  { display: block ; }
 .dib { display: inline-block; }
 
 p { font-size: 20px;  }
 .mw-800 { max-width: 800px; }
+.mw-400 { max-width: 400px; }
 .mw-full { max-width: 100%; }
 .default-tap-target { width: 44pt; height: 44pt; }
 .bad-tap-target { width: 30pt; height: 30pt; }
 .white-font { color: $white; }
-.nowrap { white-space: nowrap; }
-
-
+.dotted-border { border: 3px $near-black dotted; }
 .cp { line-height: 1.5; }
 .lh { line-height: 1; }
 .lh-2 { line-height: 2; }
 .lh-title { line-height: 1.3; }
+
+.wrap { white-space: nowrap; }
+@include break(large) {
+  .wrap-l { white-space: normal; }
+  .overflow-l { overflow: hidden;}
+}
 
 .f1 { font-size: 48px;}
 .f2 { font-size: 36px;}

@@ -383,6 +383,9 @@ table {
 .tl {
   text-align: left; }
 
+.va-m {
+  vertical-align: middle; }
+
 .db {
   display: block; }
 
@@ -394,6 +397,9 @@ p {
 
 .mw-800 {
   max-width: 800px; }
+
+.mw-400 {
+  max-width: 400px; }
 
 .mw-full {
   max-width: 100%; }
@@ -409,8 +415,8 @@ p {
 .white-font {
   color: white; }
 
-.nowrap {
-  white-space: nowrap; }
+.dotted-border {
+  border: 3px #111111 dotted; }
 
 .cp {
   line-height: 1.5; }
@@ -424,6 +430,15 @@ p {
 .lh-title {
   line-height: 1.3; }
 
+.wrap {
+  white-space: nowrap; }
+
+@media screen and (min-width: 64em) {
+  .wrap-l {
+    white-space: normal; }
+
+  .overflow-l {
+    overflow: hidden; } }
 .f1 {
   font-size: 48px; }
 
