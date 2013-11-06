@@ -371,12 +371,6 @@ table {
 .sansserif {
   font-family: helvetica, arial, sans-serif; }
 
-.bg-drk {
-  background-color: #333; }
-
-.bg-lt {
-  background-color: #ededed; }
-
 .tc {
   text-align: center; }
 
@@ -401,20 +395,17 @@ p {
 .gray-medium {
   color: #999999; }
 
-.bt-gray-light {
-  border-top: 1px solid #eeeeee; }
-
 .uppercase {
   text-transform: uppercase; }
+
+.mw-full {
+  max-width: 100%; }
 
 .mw-800 {
   max-width: 800px; }
 
 .mw-400 {
   max-width: 400px; }
-
-.mw-full {
-  max-width: 100%; }
 
 .default-tap-target {
   width: 44pt;
@@ -424,8 +415,8 @@ p {
   width: 30pt;
   height: 30pt; }
 
-.white-font {
-  color: white; }
+.bt-gray-light {
+  border-top: 1px solid #eeeeee; }
 
 .dotted-border {
   border: 3px #111111 dotted; }
@@ -446,6 +437,12 @@ p {
   white-space: nowrap; }
 
 @media screen and (min-width: 64em) {
+  .wrap-l {
+    white-space: normal; }
+
+  .overflow-l {
+    overflow: hidden; } }
+@media screen and (min-width: 48em) and (max-width: 64em) {
   .wrap-l {
     white-space: normal; }
 
