@@ -365,11 +365,26 @@ table {
    Site styles
 
    ========================================================================== */
+p {
+  font-size: 20px; }
+
 .serif {
   font-family: baskerville; }
 
 .sansserif {
   font-family: helvetica, arial, sans-serif; }
+
+.green {
+  color: #57ad68; }
+
+.gray-medium {
+  color: #999999; }
+
+.uppercase {
+  text-transform: uppercase; }
+
+.italic {
+  font-style: italic; }
 
 .tc {
   text-align: center; }
@@ -385,18 +400,6 @@ table {
 
 .dib {
   display: inline-block; }
-
-p {
-  font-size: 20px; }
-
-.green {
-  color: #57ad68; }
-
-.gray-medium {
-  color: #999999; }
-
-.uppercase {
-  text-transform: uppercase; }
 
 .mw-full {
   max-width: 100%; }
@@ -415,11 +418,11 @@ p {
   width: 30pt;
   height: 30pt; }
 
-.bt-gray-light {
+.bt-gray-solid {
   border-top: 1px solid #eeeeee; }
 
-.dotted-border {
-  border: 3px #111111 dotted; }
+.b-black-dotted {
+  border: 3px dotted #111111; }
 
 .cp {
   line-height: 1.5; }
@@ -463,6 +466,9 @@ p {
 .f5 {
   font-size: 12px; }
 
+@media screen and (min-width: 48em) and (max-width: 64em) {
+  .f3-l {
+    font-size: 30px; } }
 @media screen and (min-width: 64em) {
   .f1-l {
     font-size: 64px; }

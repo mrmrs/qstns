@@ -2,19 +2,19 @@
    Site styles
 
    ========================================================================== */
+p { font-size: 20px;  }
 .serif  { font-family: baskerville; }
 .sansserif { font-family: helvetica, arial, sans-serif; }
+.green { color: $green; }
+.gray-medium { color: $gray-medium; }
+.uppercase { text-transform: uppercase; }
+.italic { font-style:italic; }
 
 .tc { text-align: center; }
 .tl { text-align: left; }
 .va-m { vertical-align: middle; }
-.db  { display: block ; }
+.db  { display: block; }
 .dib { display: inline-block; }
-
-p { font-size: 20px;  }
-.green { color: $green; }
-.gray-medium { color: $gray-medium; }
-.uppercase { text-transform: uppercase; }
 
 .mw-full { max-width: 100%; }
 .mw-800 { max-width: 800px; }
@@ -23,8 +23,8 @@ p { font-size: 20px;  }
 .default-tap-target { width: 44pt; height: 44pt; }
 .bad-tap-target { width: 30pt; height: 30pt; }
 
-.bt-gray-light { border-top: 1px solid $gray-light; }
-.dotted-border { border: 3px $near-black dotted; }
+.bt-gray-solid { border-top: 1px solid $gray-light; }
+.b-black-dotted { border: 3px dotted $near-black; }
 
 .cp { line-height: 1.5; }
 .lh { line-height: 1; }
@@ -48,6 +48,10 @@ p { font-size: 20px;  }
 .f3 { font-size: 24px;}
 .f4 { font-size: 18px;}
 .f5 { font-size: 12px;}
+
+@include break(medium) {
+  .f3-l { font-size: 30px;}
+}
 
 @include break(large) {
   .f1-l { font-size: 64px;}
