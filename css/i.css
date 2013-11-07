@@ -386,6 +386,9 @@ p {
 .italic {
   font-style: italic; }
 
+.kerning-s {
+  letter-spacing: .2em; }
+
 .tc {
   text-align: center; }
 
