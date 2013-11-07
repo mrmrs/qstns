@@ -2,6 +2,7 @@
    Site styles
 
    ========================================================================== */
+/* Typography */
 p { font-size: 20px;  }
 .serif  { font-family: baskerville; }
 .sansserif { font-family: helvetica, arial, sans-serif; }
@@ -9,29 +10,34 @@ p { font-size: 20px;  }
 .gray-medium { color: $gray-medium; }
 .uppercase { text-transform: uppercase; }
 .italic { font-style:italic; }
+.bold { font-weight: bold; }
 .kerning-s { letter-spacing: .2em; }
 
+/* Display & Alignment */
 .tc { text-align: center; }
 .tl { text-align: left; }
 .va-m { vertical-align: middle; }
 .db  { display: block; }
 .dib { display: inline-block; }
 
+/* Max-width */
 .mw-full { max-width: 100%; }
 .mw-800 { max-width: 800px; }
 .mw-400 { max-width: 400px; }
 
-.default-tap-target { width: 44pt; height: 44pt; }
-.bad-tap-target { width: 30pt; height: 30pt; }
-
+/* Borders */
 .bt-gray-solid { border-top: 1px solid $gray-light; }
 .b-black-dotted { border: 3px dotted $near-black; }
 
+/* Line-heights */
 .cp { line-height: 1.5; }
 .lh { line-height: 1; }
 .lh-2 { line-height: 2; }
 .lh-title { line-height: 1.3; }
 
+/* Good/Bad Example Classes */
+.default-tap-target { width: 44pt; height: 44pt; }
+.bad-tap-target { width: 30pt; height: 30pt; }
 .wrap { white-space: nowrap; }
 
 @include break(large) {
@@ -141,6 +147,7 @@ p { font-size: 20px;  }
 .mbn { margin-bottom: 0; }
 .mbs { margin-bottom: .5rem; }
 .mbm { margin-bottom: 1rem; }
+.mb--1-5 { margin-bottom: 1.5rem; }
 .mbl { margin-bottom: 2rem; }
 .mbx { margin-bottom: 4rem; }
 
