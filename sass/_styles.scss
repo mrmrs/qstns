@@ -2,37 +2,57 @@
    Site styles
 
    ========================================================================== */
+p { font-size: 20px;  }
 .serif  { font-family: baskerville; }
 .sansserif { font-family: helvetica, arial, sans-serif; }
-
-.bg-drk { background-color: #333; }
-.bg-lt  { background-color: #ededed; }
+.green { color: $green; }
+.gray-medium { color: $gray-medium; }
+.uppercase { text-transform: uppercase; }
+.italic { font-style:italic; }
+.kerning-s { letter-spacing: .2em; }
 
 .tc { text-align: center; }
 .tl { text-align: left; }
-
-.db  { display: block ; }
+.va-m { vertical-align: middle; }
+.db  { display: block; }
 .dib { display: inline-block; }
 
-p { font-size: 20px;  }
-.mw-800 { max-width: 800px; }
 .mw-full { max-width: 100%; }
+.mw-800 { max-width: 800px; }
+.mw-400 { max-width: 400px; }
+
 .default-tap-target { width: 44pt; height: 44pt; }
 .bad-tap-target { width: 30pt; height: 30pt; }
-.white-font { color: $white; }
-.nowrap { white-space: nowrap; }
 
+.bt-gray-solid { border-top: 1px solid $gray-light; }
+.b-black-dotted { border: 3px dotted $near-black; }
 
 .cp { line-height: 1.5; }
 .lh { line-height: 1; }
 .lh-2 { line-height: 2; }
 .lh-title { line-height: 1.3; }
 
+.wrap { white-space: nowrap; }
+
+@include break(large) {
+  .wrap-l { white-space: normal; }
+  .overflow-l { overflow: hidden;}
+}
+
+@include break(medium) {
+  .wrap-l { white-space: normal; }
+  .overflow-l { overflow: hidden;}
+}
+
 .f1 { font-size: 48px;}
 .f2 { font-size: 36px;}
 .f3 { font-size: 24px;}
 .f4 { font-size: 18px;}
 .f5 { font-size: 12px;}
+
+@include break(medium) {
+  .f3-l { font-size: 30px;}
+}
 
 @include break(large) {
   .f1-l { font-size: 64px;}
