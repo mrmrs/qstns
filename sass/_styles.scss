@@ -6,12 +6,16 @@
 p { font-size: 20px;  }
 .serif  { font-family: baskerville; }
 .sansserif { font-family: helvetica, arial, sans-serif; }
-.green { color: $green; }
+.tawny { color: $tawny; }
 .gray-medium { color: $gray-medium; }
+
+/* Text Decoration */
 .uppercase { text-transform: uppercase; }
 .italic { font-style:italic; }
 .bold { font-weight: bold; }
 .kerning-s { letter-spacing: .2em; }
+.list-style-none { list-style-type: none; }
+.text-decoration-none { text-decoration: none; }
 
 /* Display & Alignment */
 .tc { text-align: center; }
@@ -28,6 +32,7 @@ p { font-size: 20px;  }
 /* Borders */
 .bt-gray-solid { border-top: 1px solid $gray-light; }
 .b-black-dotted { border: 3px dotted $near-black; }
+.bb-gray-dotted { border-bottom: 1px dotted $gray-medium; }
 
 /* Line-heights */
 .cp { line-height: 1.5; }
