@@ -365,23 +365,50 @@ table {
    Site styles
 
    ========================================================================== */
+/* Typography */
+p {
+  font-size: 20px; }
+
 .serif {
   font-family: baskerville; }
 
 .sansserif {
   font-family: helvetica, arial, sans-serif; }
 
-.bg-drk {
-  background-color: #333; }
+.tawny {
+  color: #bc6e3e; }
 
-.bg-lt {
-  background-color: #ededed; }
+.gray-medium {
+  color: #999999; }
 
+/* Text Decoration */
+.uppercase {
+  text-transform: uppercase; }
+
+.italic {
+  font-style: italic; }
+
+.bold {
+  font-weight: bold; }
+
+.kerning-s {
+  letter-spacing: .2em; }
+
+.list-style-none {
+  list-style-type: none; }
+
+.text-decoration-none {
+  text-decoration: none; }
+
+/* Display & Alignment */
 .tc {
   text-align: center; }
 
 .tl {
   text-align: left; }
+
+.va-m {
+  vertical-align: middle; }
 
 .db {
   display: block; }
@@ -389,29 +416,27 @@ table {
 .dib {
   display: inline-block; }
 
-p {
-  font-size: 20px; }
+/* Max-width */
+.mw-full {
+  max-width: 100%; }
 
 .mw-800 {
   max-width: 800px; }
 
-.mw-full {
-  max-width: 100%; }
+.mw-400 {
+  max-width: 400px; }
 
-.default-tap-target {
-  width: 44pt;
-  height: 44pt; }
+/* Borders */
+.bt-gray-solid {
+  border-top: 1px solid #eeeeee; }
 
-.bad-tap-target {
-  width: 30pt;
-  height: 30pt; }
+.b-black-dotted {
+  border: 3px dotted #111111; }
 
-.white-font {
-  color: white; }
+.bb-gray-dotted {
+  border-bottom: 1px dotted #999999; }
 
-.nowrap {
-  white-space: nowrap; }
-
+/* Line-heights */
 .cp {
   line-height: 1.5; }
 
@@ -424,6 +449,30 @@ p {
 .lh-title {
   line-height: 1.3; }
 
+/* Good/Bad Example Classes */
+.default-tap-target {
+  width: 44pt;
+  height: 44pt; }
+
+.bad-tap-target {
+  width: 30pt;
+  height: 30pt; }
+
+.wrap {
+  white-space: nowrap; }
+
+@media screen and (min-width: 64em) {
+  .wrap-l {
+    white-space: normal; }
+
+  .overflow-l {
+    overflow: hidden; } }
+@media screen and (min-width: 48em) and (max-width: 64em) {
+  .wrap-l {
+    white-space: normal; }
+
+  .overflow-l {
+    overflow: hidden; } }
 .f1 {
   font-size: 48px; }
 
@@ -434,11 +483,17 @@ p {
   font-size: 24px; }
 
 .f4 {
-  font-size: 18px; }
+  font-size: 20px; }
 
 .f5 {
+  font-size: 18px; }
+
+.f6 {
   font-size: 12px; }
 
+@media screen and (min-width: 48em) and (max-width: 64em) {
+  .f3-l {
+    font-size: 30px; } }
 @media screen and (min-width: 64em) {
   .f1-l {
     font-size: 64px; }
@@ -623,6 +678,9 @@ p {
 
 .mbm {
   margin-bottom: 1rem; }
+
+.mb--1-5 {
+  margin-bottom: 1.5rem; }
 
 .mbl {
   margin-bottom: 2rem; }

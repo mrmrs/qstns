@@ -1,10 +1,10 @@
 # QSTNS
 
-View the project page at [https://github.com/mrmrs/qstns](http://mrmrs.github.io/qstns "QSTNS - Absolute Truths in Web Design.")
+View the project page at [https://github.com/mrmrs/qstns](http://mrmrs.github.io/qstns "QSTNS - Promises to Users.")
 
 QSTNS is our promise to to try to make the internet better a better place.
 Our core tenet is that the internet should be consumable by everyone with
-a focus on typography and accessibility.
+a focus on typography and readability.
 
 # Getting started
 
