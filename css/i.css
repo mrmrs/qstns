@@ -375,12 +375,13 @@ p {
 .sansserif {
   font-family: helvetica, arial, sans-serif; }
 
-.green {
-  color: #57ad68; }
+.tawny {
+  color: #bc6e3e; }
 
 .gray-medium {
   color: #999999; }
 
+/* Text Decoration */
 .uppercase {
   text-transform: uppercase; }
 
@@ -392,6 +393,12 @@ p {
 
 .kerning-s {
   letter-spacing: .2em; }
+
+.list-style-none {
+  list-style-type: none; }
+
+.text-decoration-none {
+  text-decoration: none; }
 
 /* Display & Alignment */
 .tc {
@@ -425,6 +432,9 @@ p {
 
 .b-black-dotted {
   border: 3px dotted #111111; }
+
+.bb-gray-dotted {
+  border-bottom: 1px dotted #999999; }
 
 /* Line-heights */
 .cp {
