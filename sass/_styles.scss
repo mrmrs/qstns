@@ -11,8 +11,7 @@ p { font-size: 20px;  }
 
 /* Text Decoration */
 .uppercase { text-transform: uppercase; }
-.italic { font-style:italic; }
-.bold { font-weight: bold; }
+.italic { font-style:italic; } .bold { font-weight: bold; }
 .kerning-s { letter-spacing: .2em; }
 .list-style-none { list-style-type: none; }
 .text-decoration-none { text-decoration: none; }
@@ -58,8 +57,9 @@ p { font-size: 20px;  }
 .f1 { font-size: 48px;}
 .f2 { font-size: 36px;}
 .f3 { font-size: 24px;}
-.f4 { font-size: 18px;}
-.f5 { font-size: 12px;}
+.f4 { font-size: 20px;}
+.f5 { font-size: 18px;}
+.f6 { font-size: 12px;}
 
 @include break(medium) {
   .f3-l { font-size: 30px;}

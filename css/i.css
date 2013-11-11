@@ -483,9 +483,12 @@ p {
   font-size: 24px; }
 
 .f4 {
-  font-size: 18px; }
+  font-size: 20px; }
 
 .f5 {
+  font-size: 18px; }
+
+.f6 {
   font-size: 12px; }
 
 @media screen and (min-width: 48em) and (max-width: 64em) {
